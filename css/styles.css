@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
 
 html,
 *,
@@ -51,6 +51,7 @@ ul {
 }
 
 ul,
+button,
 .hero-section-left p {
     font-size: 18px;
     color: #e5e7eb;
@@ -80,14 +81,72 @@ h1 {
     margin-bottom: 32px;
 }
 
+.hero-section-left p {
+    margin-bottom: 16px;
+}
+
 .hero-image {
     max-width: 50%;
 }
 
+.hero-section-left,
+.hero-image {
+    margin-bottom: 32px;
+}
+
 button {
     background-color: #3882f6;
-    color: #f9faf8;
-    padding: 16px 32px;
+    padding: 16px 24px;
     border: 1px solid transparent;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.information-container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.information-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 64px 0;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 16px;
 }
